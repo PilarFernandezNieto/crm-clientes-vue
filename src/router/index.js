@@ -9,7 +9,7 @@ const router = createRouter({
       name: "inicio",
       component: Inicio,
       props: {
-        titulo: "Listado de Clientes",
+        titulo: "Listado de clientes",
       },
     },
     {
@@ -17,7 +17,15 @@ const router = createRouter({
       name: "agregar-cliente",
       component: () => import("../views/NuevoClienteView.vue"),
       props: {
-        titulo: "Nuevo Cliente",
+        titulo: "Nuevo cliente",
+      },
+    },
+    {
+      path: "/editar-cliente/:id",
+      name: "editar-cliente",
+      component: () => import("../views/EditarClienteView.vue"),
+      props: {
+        titulo: "Editar cliente",
       },
     },
   ],

@@ -1,0 +1,24 @@
+{
+  "clientes": [
+    {
+      "id": "8277",
+      "nombre": "Pilar",
+      "apellido": "Fernandez",
+      "email": "pilar@pilar.com",
+      "telefono": "123-123-1234",
+      "empresa": "Mi Empresa",
+      "puesto": "Developer",
+      "estado": 1
+    },
+    {
+      "id": "8255",
+      "nombre": "Lola",
+      "apellido": "Flores",
+      "email": "lola@lola.com",
+      "telefono": "123-123-1234",
+      "empresa": "Mi Empresa",
+      "puesto": "Bailaora",
+      "estado": 0
+    }
+  ]
+}
